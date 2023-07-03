@@ -1,0 +1,66 @@
+[
+    {
+      "name": "HTML",
+      "image": "https://i.ibb.co/PzkcMf8/html-main.png"
+    },
+    {
+      "name": "CSS",
+      "image": "https://i.ibb.co/X2Rbznm/css-main.png"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "https://i.ibb.co/x2zK4KC/bootstrap-main.png"
+    },
+    {
+      "name": "Tailwind",
+      "image": "https://i.ibb.co/zbmYpsZ/tailwind.png"
+    },
+    {
+      "name": "Javascript",
+      "image": "https://i.ibb.co/hRT0Wt7/javascript.png"
+    },
+    {
+      "name": "Node Js",
+      "image": "https://i.ibb.co/hLF1LT8/node-js-main.png"
+    },
+    {
+      "name": "React Js",
+      "image": "https://i.ibb.co/9by92L6/react-js.png"
+    },
+    {
+      "name": "Express Js",
+      "image": "https://i.ibb.co/JxnHsxN/express-js-main.png"
+    },
+    {
+      "name": "MongoDb",
+      "image": "https://i.ibb.co/yXR7w9D/mongodb.png"
+    },
+    {
+      "name": "Bubble.io",
+      "image": "https://i.ibb.co/Y8DgbyK/bubble.png"
+    },
+    {
+      "name": "Firebase",
+      "image": "https://i.ibb.co/KFnKvNh/firebase-main.png"
+    },
+    {
+      "name": "Github",
+      "image": "https://i.ibb.co/S3krVVs/github.png"
+    },
+    {
+      "name": "Vs Code",
+      "image": "https://i.ibb.co/N7F0CtD/vscode.png"
+    },
+    {
+      "name": "JWT",
+      "image": "https://i.ibb.co/7zZz5W5/jwt.png"
+    },
+    {
+      "name": "WordPress",
+      "image": "https://i.ibb.co/j3bWkb5/wordpress-main.png"
+    },
+    {
+      "name": "Figma",
+      "image": "https://i.ibb.co/KxYQwPj/figma-main.png"
+    }
+  ]

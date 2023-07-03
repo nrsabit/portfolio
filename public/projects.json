@@ -1,0 +1,41 @@
+[
+  {
+    "name": "sportingLife",
+    "details": "This is a summer campaign website about sports, and here you will find many classes and instructors. I've used React js, Express js, mongoDB, JWT, Stripe, Firebase, Vercel etc. and the main functionalities are: if you are a student then you can select a class, and purchase it by using stripe, and you can also see the payment history as well, and the dashboard will be available for you only if you are logged in, and if you are an instructor then you can add a new class and also see all of the classes you have added, and if you are an admin then you can manage the classes and the other users. and you can also send feedback for a class as well. ",
+    "primaryImage": "https://i.ibb.co/hyBZ0bF/sporting-life-dark.png",
+    "liveSite": "https://sporting-life-b05e2.web.app/",
+    "githubClient": "https://github.com/nrsabit/sporting-life-client",
+    "githubServer": "https://github.com/nrsabit/sporting-life-server",
+    "screenshots": [
+      "https://i.ibb.co/TYJv7k4/sporting-life-instructors-dark.png",
+      "https://i.ibb.co/QjWJwpc/sporting-life-classes.png",
+      "https://i.ibb.co/2F8Gzp2/sporting-life-selected.png",
+      "https://i.ibb.co/gV1D5dL/sporting-life-payments.png",
+      "https://i.ibb.co/9VQWp8J/sporting-life-manage-users.png",
+      "https://i.ibb.co/SmZhqT3/sporting-life-my-classes.png",
+      "https://i.ibb.co/NYJvN2h/sporting-life-add-clas.png"
+    ]
+  },
+  {
+    "name": "motorToys",
+    "details": "MotorToys is a toy store website, in the home page, you will be able to see the toys by category by changing tabs, A user can log in or sign up to the website by using sign up form or Google, and after logging in the user will be able to see my toys and add a toy page, and if the user is not logged in, then these two pages will not be available, From the add a toy page, a logged-in user can add a new toy with relevant information, and from the my toys page the user will be able to see all of the toys added by himself and he can edit or delete the toys as well. and React, Express.js, MongoDB, JWT, Firebase, Vercel. these are the main technologies in this website",
+    "primaryImage": "https://i.ibb.co/dpHY2Q7/motor-toys-home.png",
+    "liveSite": "https://motor-toys.web.app/",
+    "githubClient": "https://github.com/nrsabit/motor-toys-client",
+    "githubServer": "https://github.com/nrsabit/motor-toys-server",
+    "screenshots": [
+      "https://i.ibb.co/jkxrgy4/motor-toys-all.png",
+      "https://i.ibb.co/dkn0LQH/motor-toys-login.png",
+      "https://i.ibb.co/8jDZZN7/motor-toys-add.png"
+    ]
+  },
+  {
+    "name": "banglaFoods",
+    "details": "We have sign up and login system here, and also a user can login using google or github. We have some top-quality chefs from Bangladesh, and each chef has some recipes, we can see all of the recipes by the chef, and also we can show a notification after clicking the favorite button attached to the recipe. React, Express.js, Firebase, Vercel. these are the main technologies in this website",
+    "primaryImage": "https://i.ibb.co/9Gh6cjF/bangla-foods-home.png",
+    "liveSite": "https://bangla-foods.web.app/",
+    "githubClient": "https://github.com/nrsabit/bangla-foods-client",
+    "githubServer": "https://github.com/nrsabit/bangla-foods-server",
+    "screenshots": ["https://i.ibb.co/q9dR9GT/bangla-foods-chef.png"]
+  }
+]

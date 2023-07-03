@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+}
+.navbar a:hover{
+  font-weight: 600;
+  color: blueviolet !important;
+  text-decoration: underline !important;
+  background-color: transparent !important;
+}
+
+.menu li > *:not(ul):not(details):active, .menu li > *:not(ul):not(details).active{
+  font-weight: 600;
+  color: blueviolet !important;
+  text-decoration: underline !important;
+  background-color: transparent !important;
+}
+
+#banner{
+  background-image: url('../src/assets/hero-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#skills{
+  background-image: url('../src/assets/hero-bg-3.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact{
+  background-image: url('../src/assets/grey-bg-3.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile-image{
+  background-image: url('../src/assets/banner-image-bg.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hovered-image{
+  background-position: top center;
+  background-size: cover;
+  transition: 2s;
+  cursor: pointer;
+}
+.hovered-image:hover{
+  background-position: bottom center;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/sabit-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NR Sabit | Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init(`${import.meta.env.VITE_EMAIL_PUBLIC_KEY}`);
+      })();
+    </script>
+  </body>
+</html>
