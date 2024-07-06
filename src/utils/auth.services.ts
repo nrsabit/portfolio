@@ -15,6 +15,10 @@ export const getUserInfo = () => {
   }
 };
 
+export const getToken = () => {
+  return localStorage.getItem("user");
+};
+
 export const isLoggedIn = () => {
   const authToken = localStorage.getItem("user");
   if (authToken) {

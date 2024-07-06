@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import skillBg from "../../../../assets/skill-bg-main.png";
 import { motion } from "framer-motion";
+import { backednUrl } from "../../../../constants";
 
 const Skills = () => {
   const [skills, setSkills] = useState([]);
   useEffect(() => {
-    fetch("skills.json")
+    fetch(`${backednUrl}/skills`)
       .then((res) => res.json())
-      .then((data) => setSkills(data));
+      .then((data) => setSkills(data.data));
   }, [skills]);
 
   return (
@@ -28,7 +29,6 @@ const Skills = () => {
             className="relative w-28 h-28 flex flex-col justify-center items-center"
           >
             <motion.img
-              animate={{ rotate: 360 }}
               whileHover={{ scale: 1.1, rotate: 0 }}
               transition={{
                 duration: 5,
@@ -39,7 +39,11 @@ const Skills = () => {
               src={skillBg}
               alt=""
             />
-            <img src={skill.image} className="relative z-10 w-20 h-20" alt="" />
+            <img
+              src={skill?.image}
+              className="relative z-10 w-20 h-20"
+              alt=""
+            />
           </div>
         ))}
       </div>

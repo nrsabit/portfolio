@@ -21,7 +21,7 @@ const SingleProject = ({ project, setProject }) => {
       <div
         className="hovered-image w-full h-56 rounded"
         onClick={openImageInNewTab}
-        style={{ backgroundImage: `url(${project.primaryImage})` }}
+        style={{ backgroundImage: `url(${project.image})` }}
       ></div>
       <div className="flex justify-between items-center my-4 px-4">
         <h2 className="text-2xl font-bold">{project.name}</h2>
